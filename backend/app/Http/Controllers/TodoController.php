@@ -31,7 +31,6 @@ class TodoController extends Controller
 
         $todo = new Todo();
         $todo->task = $request->input('task');
-//        $todo->status = $request->input('status');
 
         $todo->save();
 
